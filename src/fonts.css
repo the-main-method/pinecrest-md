@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Dosis";
+    src: url('./assets/fonts/san-serif/dosis/Dosis-ExtraLight.ttf');
+    src: url('./assets/fonts/san-serif/dosis/Dosis-ExtraLight.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Dosis";
+    src: url('./assets/fonts/san-serif/dosis/Dosis-Light.ttf');
+    src: url('./assets/fonts/san-serif/dosis/Dosis-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Dosis";
+    src: url('./assets/fonts/san-serif/dosis/Dosis-Medium.ttf');
+    src: url('./assets/fonts/san-serif/dosis/Dosis-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+/*
+@font-face {
+    font-family: "Dosis";
+    src: url('./assets/fonts/san-serif/dosis/Dosis-SemiBold.ttf');
+    src: url('./assets/fonts/san-serif/dosis/Dosis-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Dosis";
+    src: url('./assets/fonts/san-serif/dosis/Dosis-Bold.ttf');
+    src: url('./assets/fonts/san-serif/dosis/Dosis-Bold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: "Cardo";
+    src: url('./assets/fonts/serif/fogtwono5.regular.otf');
+    src: url('./assets/fonts/serif/fogtwono5.regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* @font-face {
+    font-family: "Cardo";
+    src: url('./assets/fonts/serif/fogtwono5.regular.otf');
+    src: url('./assets/fonts/serif/fogtwono5.regular.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+} */
+/* @font-face {
+    font-family: "Cardo";
+    src: url('./assets/fonts/serif/cardo.bold.ttf');
+    src: url('./assets/fonts/serif/cardo.bold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+} */

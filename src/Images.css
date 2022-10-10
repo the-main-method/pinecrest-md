@@ -1,0 +1,42 @@
+.hero-img{
+    background-image: url("./assets/images/girl-on-phone.webp");
+    background-size: cover;
+    background-position: -80% 50%;
+}
+.profile .image.blake{
+    background-image: url("./assets/images/blake.webp");
+    background-size: cover;
+}
+.profile .image.evelyn{
+    background-image: url("./assets/images/evelyn.webp");
+    background-size: cover;
+}
+.profile .image.jenna{
+    background-image: url("./assets/images/janna.webp");
+    background-size: cover;
+}
+.profile .image.david{
+    background-image: url("./assets/images/david.webp");
+    background-size: cover;
+}
+
+.workings .image{
+    background-image: url("./assets/images/working.webp");
+    background-attachment: fixed;
+    background-position: 8% top;
+    /* background-repeat: no-repeat; */
+}
+
+.testimonials{
+    position: relative;
+    isolation: isolate;
+}
+.testimonials > .video-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}

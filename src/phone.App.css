@@ -1,0 +1,124 @@
+@media screen and (max-width: 768px) {
+    nav{
+        height: 8vh;
+    }
+    nav .collapse{
+        display: none;
+    }
+
+    .hero{
+        height: max-content;
+    }
+    .hero-img, .hero-text{
+        position: static !important;
+        width: 100% !important;
+    }
+    .hero-text{
+        transform: translateY(0) !important;
+    }
+    .hero-img{
+        height: 300px  !important;
+        /* background-attachment: fixed; */
+    }
+
+    .doctors .profiles{
+        grid-template-columns: 1fr;
+        gap: 1.5rem !important;
+        background-color: initial;
+    }
+    .profile .description{
+        border-left: 1px solid;
+        background-color: var(--secondary-1);
+    }
+    .profile .image{
+        border-inline: .5px dashed !important;
+        border-top: 1.5px solid;
+        border-bottom: 0;
+    }
+
+    .how-it-works > p{
+        margin-bottom: 1.5rem;
+    }
+    .workings{
+      flex-direction: column-reverse;
+      gap: 1.5rem;
+      border: none;  
+    }
+    .workings .image{
+        height: 500px;
+        width: 100%;
+    }
+    .workings .specs .spec{
+        flex-direction: column;
+        text-align: center;
+    }
+    .spec{
+        gap: .5rem;
+    }
+    .spec:not(.spec:last-child){
+        margin-bottom: 2.5rem;
+    }
+
+    .consultation-icons{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .consultation-icons .icon svg{
+        width: 100%;
+        height: 100%;
+    }
+    .consultations{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .consultation{
+        gap: .5rem;
+    }
+    .consultation button{
+        margin-left: 0;
+    }
+
+    .testimonial .message{
+        padding-inline: 8vw;
+      }
+    .carousel-controls{
+        gap: 1.25rem;
+    }
+
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-section .phone-image{
+        display: none;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form form{
+        flex-wrap: wrap;
+    }
+
+    footer .top{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .f-menus .f-menu .menu-title, footer .logo{
+        margin-bottom: 1.5rem;
+    }
+    .footer-head form .control{
+        flex-grow: 1;
+    }
+    .footer-head form .control input{
+        width: 100%;
+    }
+    .f-menus{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .f-menu.page-menu{
+        display: none;
+    }
+    .copyright{
+        font-size: 1rem;
+    }
+}
