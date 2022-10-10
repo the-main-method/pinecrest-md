@@ -1,4 +1,5 @@
 import React from "react";
+import ScriptTag from 'react-script-tag';
 
 import "./fonts.css";
 import "./App.css";
