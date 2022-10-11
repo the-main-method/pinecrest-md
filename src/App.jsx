@@ -7,6 +7,13 @@ import "./phone.App.css";
 import "./Images.css";
 import testimonialCover from "./assets/videos/vid-bg.webp";
 
+export function AddLibrary(urlOfTheLibrary) {
+  const script = document.createElement('script');
+  script.src = urlOfTheLibrary;
+  script.async = true;
+  document.body.appendChild(script);
+}
+
 export function App() {
   return (
     <>
@@ -326,6 +333,9 @@ export function App() {
         <p>Inspiration from Wix</p>
       </div>
     </footer>
+    {AddLibrary("./assets/js-utils/gsap.min.js")}
+    {AddLibrary("./assets/js-utils/ScrollTrigger.min.js")}
+    {AddLibrary("./pageAnimations.js")}
     </>
   );
 }
