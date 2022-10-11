@@ -23,7 +23,7 @@
 .workings .image{
     background-image: url("./assets/images/working.webp");
     background-attachment: fixed;
-    background-position: 8% top;
+    background-position: 8% center;
     /* background-repeat: no-repeat; */
 }
 

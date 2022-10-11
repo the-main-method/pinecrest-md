@@ -100,6 +100,9 @@ nav .actions .login{
   padding: .62rem 1.3rem;
   white-space: nowrap;
 }
+nav .actions .login span{
+  margin-left: .75rem;
+}
 nav .actions .pricing{
   border: none;
   color: var(--secondary);

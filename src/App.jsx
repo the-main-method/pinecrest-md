@@ -1,5 +1,5 @@
 import React from "react";
-import ScriptTag from 'react-script-tag';
+import {UserOutlined} from '@ant-design/icons'
 
 import "./fonts.css";
 import "./App.css";
@@ -25,6 +25,7 @@ export function App() {
           </div>
           <div className="actions">
             <button className="login">
+              <UserOutlined></UserOutlined>
               <span>Login</span>
             </button>
             <button className="pricing">Plans & Pricing</button>
