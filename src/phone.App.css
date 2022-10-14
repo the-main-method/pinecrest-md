@@ -47,6 +47,8 @@
     .workings .image{
         height: 500px;
         width: 100%;
+        border: 1px solid #ccc;
+        background-size: auto;
     }
     .workings .specs .spec{
         flex-direction: column;

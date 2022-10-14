@@ -25,6 +25,7 @@
     background-attachment: fixed;
     background-position: 8% center;
     /* background-repeat: no-repeat; */
+    background-size: 30% auto;
 }
 
 .testimonials{

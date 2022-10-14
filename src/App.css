@@ -53,6 +53,8 @@ body{
   padding-block: .5rem;
   letter-spacing: 2px;
   font-weight: bold;
+
+  overflow: hidden;
 }
 
 nav{
